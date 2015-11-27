@@ -151,5 +151,5 @@ var searchQuery = {
   friends: ["Mona", "Larry", "Julia"]
 };
 
-jSearch(searchTarget, searchQuery); // Returns searchTarget[0] and searchTarget[1]
+jSearch(searchTarget, searchQuery); // Returns searchTarget[0] and searchTarget[1] as an array
 ```
