@@ -9,7 +9,7 @@
     var jSearch = function (o, q) {
         if (typeof q === 'string') {
             if (typeof o === 'string') {
-                return o === q;
+                return o === q || o.search(p) > -1;
             }
             else if (o instanceof Array) {
                 for (var i = 0; i < o.length; i++) {
