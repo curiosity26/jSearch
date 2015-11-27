@@ -158,6 +158,8 @@ jSearch(searchTarget, searchQuery); // Returns searchTarget[0] and searchTarget[
 
 ```JavaScript
 var jSearch = require("jsearch");
+
+jSearch(object, query);
 ```
 
 ## Use in a web browser
@@ -165,7 +167,7 @@ var jSearch = require("jsearch");
 ```HTML
 <script src="dist/jSearch.min.js"></script>
 
-<script type="text/javascript>
+<script type="text/javascript">
     // ... My application code
     
     jSearch(object, query);
