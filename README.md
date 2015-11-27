@@ -153,3 +153,23 @@ var searchQuery = {
 
 jSearch(searchTarget, searchQuery); // Returns searchTarget[0] and searchTarget[1] as an array
 ```
+
+## Use with Node.js
+
+```JavaScript
+var jSearch = require("jsearch");
+```
+
+## Use in a web browser
+
+```HTML
+<script src="dist/jSearch.min.js"></script>
+
+<script type="text/javascript>
+    // ... My application code
+    
+    jSearch(object, query);
+    
+    // ... More application code
+</script>
+```
