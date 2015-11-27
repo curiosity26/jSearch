@@ -1,0 +1,19 @@
+{
+  "name": "jsearch",
+  "version": "1.0.0",
+  "description": "Search a string, array or object for another string array or object",
+  "main": "dist/jSearch.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "search",
+    "find",
+    "compare",
+    "vanilla",
+    "node"
+  ],
+  "author": "Alex Boyce <curiosity26@gmail.com>",
+  "license": "MIT",
+  "repository": "curiosity26/jSearch"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "jSearch",
+  "version": "1.0.0",
+  "authors": [
+    "Alex Boyce <curiosity26@gmail.com>"
+  ],
+  "description": "Search a string, array or object for a matching string array or object",
+  "main": "dist/jSearch.min.js",
+  "moduleType": [
+    "es6",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "search",
+    "find",
+    "deep",
+    "compare",
+    "node",
+    "vanilla"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.alex-boyce.me/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
